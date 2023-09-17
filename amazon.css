@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.body{
+    font-family: 'Poppins',sans-serif;
+}
+
+        /* utility class */
+.box{
+    border: 1px solid transparent; 
+    padding: 5px;
+}
+.box:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+    background-color: #0f1111;
+}
+
+ 
+                              /* nav-logo */
+.nav-box1{
+background-image: url('./assests/amazon_logo.png');
+background-size: contain;
+background-repeat: no-repeat;
+height: 51px;
+width: 114px;
+background-position: center;
+}
+
+             /* nav-address */
+
+             .nav-box2{
+                display: flex;
+
+             }
+       .left-location{
+         margin-top: 10px;
+       }      
+       
+
+       .box1{
+        font-size: 16PX;
+        color: #CCCCCC;
+        padding-left: 5px;
+       }
+
+       .box2{
+        font-size: 19px;
+        color: white;
+        font-weight: 700;
+        padding-left: 5px;
+       }
+
+                       /* nav-searchInput */
+
+         .nav-box3{
+            display: flex;
+            
+            justify-content: space-evenly;
+            width: 1000px;
+         }            
+         
+         .select{
+            height: 40px;
+            border: none;
+            padding: 10px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            font-size: 14px
+          
+         }
+
+         .input{
+            height: 40px;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            width: 100%;
+             
+         }
+
+         .icon{
+            width: 45px;
+            height: 40px;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #febd69;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+         }
+
+                   /* nav-countryChoose */
+                   .nav-box4{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 5px;
+                    padding-inline :10px;
+            
+                   }
+                   .nav-box4 img{
+                    width: 24px;
+                    height: 19px;
+                    background-color: white;
+                   }
+
+                   .flag{
+                    background-color: black;
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: white;
+                    border: none;
+                   }
+
+                   /* account box same as box 2 */
+                   .nav-box5{
+                    padding-inline: 10px;
+                    
+                   }
+                   /* return box same as box location */
+                   .nav-box6{
+                    padding-inline: 10px;
+                    
+                   }
+
+                        /* cart box */
+                        .nav-box7{
+                            display: flex;
+                            align-items: center;
+                        }
+
+                        .nav-box7 p{
+                            font-size: 16px;
+                            color: white;
+                            font-weight: 700;
+                            padding-top: 12px;
+                        }
+
+                         /* PANEL START */
+        .panel{
+            height: 40px;
+            background-color: #232f3e;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            
+        }
+
+        .panel-all{
+            font-size: 16px;
+            color: white;
+            width:60px;
+        }
+
+
+        .panel-option{
+            font-size: 16px;
+            color: white;
+            display: flex;
+            align-items: center;
+            width: 75%;
+
+        }
+
+        .panel-option p{
+            padding: 8px 12px; 
+            margin: 5px 0px 6px;
+        }
+
+    .panel-right{
+        font-size: 16px;
+        color:white;
+        font-weight: 700;
+        width: 200px;
+    }
+
+
+           /* hero-section */
+
+           .hero-section{
+            background-image: url('./assests/hero-section-image.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            
+           }
+
+           .hero-box{
+            background-color: white;
+            color: black;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            width: 80%;
+            margin-bottom: 25px;
+
+           }
+
+           .hero-box a{
+           color: #007185;
+           text-decoration: none;
+           }
+
+           .hero-box a:hover{
+            color: red;
+            text-decoration: underline;
+           }
+
+                     /* hero ends */
+
+                                          /* cards */
+                     .shopping{
+                        display: flex;
+                        justify-content: space-evenly;
+                        background-color: #f4ebd4;
+                        flex-wrap: wrap;
+
+                     }
+
+                     .shopy{
+                        height: 400px;
+                        width: 22%;
+                        background-color: white;
+                        padding: 20px 0px 15px;
+                        margin-top: 15px;
+                     }
+
+                     .bg-image{
+                       
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        height: 300px;
+                        margin-top: 1rem;
+                        margin-bottom: 1rem;
+                     }
+
+                     .box-content{
+                        margin-inline: 14px;
+                     }
+
+                     .box-content a{
+                        text-decoration: none;
+                        color: steelblue;
+                        margin-bottom: 5px;
+                     }
+
+                     .box-content h2{
+                        font-weight: bold;
+                        font-family: 'roboto',sans-serif;
+                     }
+
+
+                            /* cards ends */
+
+
+                            /* footer */
+
+                            footer{
+                                margin-top: 15px;
+                            }
+
+               .foot-panel1{
+                /* margin-block: 5px; */
+                background-color: #37475a;
+                color: white;
+                height: 51px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1rem;
+                padding: 15px 0px;
+               }      
+               
+               .foot-panel2{
+                background-color: #222f3d;
+                color: white;
+                height: 400px;
+                display: flex;
+                justify-content: space-evenly;
+               }
+
+               ul{
+                margin-top: 30px;
+               }
+
+               ul a{
+                display: block;
+                text-decoration: none;
+                margin-top: 10px;
+                font-size: 0.85rem;
+                color: #dddddd;
+               }
+
+               ul a:hover{
+                text-decoration: underline;
+               }
+
+               ul p{
+                font-family: 'Roboto',sans-serif;
+                font-size: 1.5rem;
+                font-weight: bold;
+               }
+
+                    /* footer panel 3 */
+
+                    .foot-panel3{
+                        background-color: #222f3d;
+                        color: white;
+                        border-top: 0.5px solid white;
+                        height: 70px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    .logo{
+                        background-image: url('./assests/amazon_logo.png');
+                       background-size: contain;
+                       background-repeat: no-repeat;
+                       height: 51px;
+                       width: 114px;
+                       background-position: center;
+                    }
+.work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+     padding: 6px 18px 6px 8px;
+    
+     
+}
+                    .flag{
+                        width: 18px;
+                        height: 12px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-color: white;
+                    }
+                    .btn{
+                        
+                        color:#cccccc;
+                    }
